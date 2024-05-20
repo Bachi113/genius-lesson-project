@@ -1,5 +1,18 @@
 @font-face {
-    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+@font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -7,19 +20,10 @@
 }
 
 @font-face {
-    font-display: swap;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
 }
 
 body {
@@ -28,13 +32,6 @@ body {
 
 h1 {
     font-family: 'Play', sans-serif;
-}
-
-.button {
-    color: #FFFFFF;
-    background-color: #2B7FFF;
-    border: 2px solid #2B7FFF;
-    border-radius: 32px;
 }
 
 :root {
@@ -46,8 +43,8 @@ h1 {
 /*Base*/
 body {
    color: var(--color-primary-dark); 
-   front-family: Play, sans-serif;
-   front-weight: 400px; 
+   font-family: Play, sans-serif;
+   font-weight: 400px; 
 
 }
 
@@ -74,25 +71,25 @@ list-style-type: none;
 /* Header-footer Links*/
 .header-link {
     color: var(--color-primary-dark);
-    front-weight: 400px
+    font-weight: 400px
 }
 
 .header-link:hover {
     color: var(--color-brand);
-    front-weight: 700px
+    font-weight: 700px
 
 }
 
 .footer-link {
     color: var(--color-primary-light);
     text-decoration: none;
-    front-weight: 400px
+    font-weight: 400px
 }
 
 .footer-link:hover {
     color: var(--color-brand);
     text-decoration: none;
-    front-weight: 700px
+    font-weight: 700px
 }
 
 /*Hero section*/
@@ -114,12 +111,12 @@ list-style-type: none;
     color: var(--color-primary-dark);
     text-align: center;
     font-family: Play;
-    front-weight: 400px;
+    font-weight: 400px;
 }
 
 .section-title {
     color: var(--color-primary-dark);
     font-family: Play; 
-    front-weight: 700px;
+    font-weight: 700px;
 
 }
